@@ -1,0 +1,6 @@
+source .venv/bin/activate
+export FLASK_APP="run.py"
+export SECRET="q&-=9#$8a5cy297l1qkb+$8o)h(3a$2br!8tdo5iz6rb@ub2=-"
+export APP_SETTINGS="dev"
+export DATABASE_URL="postgresql://alikberry:kQAKPFtWyZkuKs3EpW73pV4Wb3qh4f8x@localhost:5432/mover_db"
+export TEST_DATABASE_URL="postgresql://alikberry:kQAKPFtWyZkuKs3EpW73pV4Wb3qh4f8x@localhost:5432/mover_db_test"

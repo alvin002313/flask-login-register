@@ -1,0 +1,20 @@
+{% extends "base/index.html" %}
+
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="card mt-5" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Welcome to website !</h5>
+                        <p class="card-text">{{ request.user.get_full_name() }}</p>
+                        <p>{{ request.user.password }}</p>
+                        <a href="{{ url_for('logout') }}" class="btn btn-danger">Log Out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
